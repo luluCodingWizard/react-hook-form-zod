@@ -1,7 +1,7 @@
-export const metadata = {
-  title: "App Router",
-};
+"use client";
+// import FormComplex from "../../app/components/FormComplex";
+import FormEasy from "./components/FormEasy";
 
 export default function Page() {
-  return <h1>App Router</h1>;
+  return <FormEasy />;
 }
